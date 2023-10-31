@@ -35,7 +35,7 @@
 		"typescript": "^5.2.2"
 	},
 	"lint-staged": {
-		"src/**/*.{js, jsx}": [
+		"src/**/*.ts": [
 			"eslint .",
 			"prettier --write .",
 			"git add"
