@@ -43,8 +43,8 @@
 	},
 	"lint-staged": {
 		"src/**/*.ts": [
-			"npx run prettier:fix",
-			"npx run lint",
+			"npm run prettier:fix",
+			"npm run lint",
 			"git add"
 		]
 	},
