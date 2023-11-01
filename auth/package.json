@@ -40,9 +40,7 @@
 			"npm run prettier:fix",
 			"npm run lint",
 			"git add"
-		],
-		"*.js": "eslint --cache --fix",
-		"*.{js,css,md}": "prettier --write"
+		]
 	},
 	"husky": {
 		"hooks": {
