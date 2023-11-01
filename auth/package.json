@@ -10,7 +10,7 @@
 		"start:dev": "nodemon src/index.ts",
 		"start": "echo starting prod server",
 		"test": "jest",
-		"prepare": "node_modules/.bin/husky-run install"
+		"prepare": "husky install"
 	},
 	"jest": {
 		"testEnvironment": "node",
