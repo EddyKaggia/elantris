@@ -9,7 +9,8 @@
 		"prettier:fix": "prettier --write .",
 		"start:dev": "nodemon src/index.ts",
 		"start": "echo starting prod server",
-		"test": "jest"
+		"test": "jest",
+		"prepare": "node_modules/.bin/husky-run install"
 	},
 	"jest": {
 		"testEnvironment": "node",
